@@ -22,3 +22,12 @@ nginx-https.conf file is an sample file to run proxy from nginx server to differ
 changes to be done in the file are 
       1. change the ips of kernel to kernel sandbox ip 
       2. Change the ips of Pre-reg to pre-reg sandbox ip. 
+
+===========================================
+
+docker-scripts contains shell scripts which can be run in single go once config container is created.
+
+by the below command
+		
+		 ./kernel-docker.sh
+		 ./pre-reg-docker.sh
